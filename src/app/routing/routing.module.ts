@@ -14,9 +14,6 @@ const routes: Routes = [
   { path: 'company/edit/:id', component: CompanyFormComponent },
   { path: 'company/add', component: CompanyFormComponent },
   { path: 'invoices', component: InvoicesComponent},
-  { path: 'billing-record/add', component: BillingRecordFormComponent},
-  { path: 'billing-record/edit:id', component: BillingRecordComponent},
-  { path: 'billing-record/delete:id', component: BillingRecordComponent},
 ];
 
 @NgModule({

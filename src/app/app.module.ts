@@ -17,7 +17,8 @@ import { StatusMessageComponent } from './status-message/status-message.componen
 import { HttpClientModule } from '@angular/common/http';
 import { DevToolsComponent } from './dev-tools/dev-tools.component';
 import { BillingRecordComponent } from './billing-record/billing-record.component';
-import { InvoicesComponent } from './invoices/invoices.component';  // IMPORT!!!
+import { InvoicesComponent } from './invoices/invoices.component';
+import { BillingFormComponent } from './billing-form/billing-form.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { InvoicesComponent } from './invoices/invoices.component';  // IMPORT!!!
     StatusMessageComponent,
     DevToolsComponent,
     BillingRecordComponent,
-    InvoicesComponent
+    InvoicesComponent,
+    BillingFormComponent,
   ],
   imports: [
     BrowserModule,
